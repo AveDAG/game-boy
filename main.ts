@@ -256,6 +256,7 @@ controller.moveSprite(hero, 105, 102)
 scene.cameraFollowSprite(hero)
 info.startCountdown(60)
 hero.say("Ha Looser ")
+villian.say("you'll Pay!!!")
 game.splash("Don't Get Hit!!!", "press A and B to survive")
 game.onUpdateInterval(500, function () {
     info.changeScoreBy(1)
